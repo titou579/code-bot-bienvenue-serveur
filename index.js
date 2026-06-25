@@ -16,7 +16,7 @@ const client = new Client({
 });
 
 // Remplace ici par tes informations de connexion
-const TOKEN = "salut moi c'est greg";
+const TOKEN = process.env.TOKEN;
 const SALON_ID = "1519746058656153680"; 
 
 client.once('ready', () => {
